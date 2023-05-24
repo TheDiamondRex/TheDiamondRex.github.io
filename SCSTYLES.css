@@ -1,0 +1,231 @@
+header {
+	background-image: url('back.png');
+    color: #fff;
+}
+nav ul {
+    list-style-type: none;
+	
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+	font-family: times new roman,sans-serif;
+    font-weight: bold;
+	
+}
+.btn{
+  --c:  #229091; /* the color*/
+  
+  box-shadow: 0 0 0 .1em inset var(--c); 
+  --_g: linear-gradient(var(--c) 0 0) no-repeat;
+  background: 
+    var(--_g) calc(var(--_p,0%) - 100%) 0%,
+    var(--_g) calc(200% - var(--_p,0%)) 0%,
+    var(--_g) calc(var(--_p,0%) - 100%) 100%,
+    var(--_g) calc(200% - var(--_p,0%)) 100%;
+  background-size: 50.5% calc(var(--_p,0%)/2 + .5%);
+  outline-offset: .1em;
+  transition: background-size .4s, background-position 0s .4s;
+}
+.btn:hover {
+  --_p: 100%;
+  transition: background-position .4s, background-size 0s;
+}
+.btn:active {
+  box-shadow: 0 0 9e9q inset #0009; 
+  background-color: var(--c);
+  color: #fff;
+}
+
+.btn {
+  font-family: system-ui, sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  padding: .1em .6em;
+  font-weight: bold;  
+  border: none;
+}
+
+body{
+	background-image: url('back.png');
+}
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+	color: #000000;
+	font-family: times new roman,sans-serif;
+}
+h2 {
+	font-family: times new roman,sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+	color: #000000;
+	padding: 10px;
+	
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text
+}
+main {
+
+    background-color: #f9f9f9;
+	
+}
+
+section.products {
+    margin: 20px 0;
+	 
+}
+
+.product {
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    margin-right: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.p1 {
+	 background-size: cover;
+    display: inline-block;
+    padding: 150px 100px;
+    background-image: url('https://marketplace.canva.com/EAD7WmQzMUQ/2/0/1003w/canva-moon-photo-thriller-mystery-book-cover-QE7uv7YSwDQ.jpg');
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.p2 {
+	 background-size: cover;
+    display: inline-block;
+    padding: 150px 100px;
+    background-image: url('https://marketplace.canva.com/EAFKA0RgDtw/1/0/1003w/canva-brown-and-orange-elegant-simple-young-adult-fantasy-book-cover-Qb8uSVdJDzw.jpg');
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.p3 {
+	 background-size: cover;
+    display: inline-block;
+    padding: 150px 100px;
+    background-image: url('https://marketplace.canva.com/EAFHr1oLQck/1/0/1003w/canva-black-and-yellow-modern-two-side-book-cover-Msw-230psrw.jpg');
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.p4 {
+	 background-size: cover;
+    display: inline-block;
+    padding: 150px 100px;
+    background-image: url('https://marketplace.canva.com/EAFEbtlNK2Q/1/0/1003w/canva-double-exposure-artistic-background-novel-book-cover-sTAyOpO_rTI.jpg');
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.p5 {
+	 background-size: cover;
+    display: inline-block;
+   padding: 150px 100px;
+    background-image: url('https://marketplace.canva.com/EAFMlxqVi1U/1/0/1003w/canva-black-mystery-novel-book-cover-DqHX0DWBxm8.jpg');
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.p6 {
+	 background-size: cover;
+    display: inline-block;
+    padding: 150px 100px;
+    background-image: url('https://marketplace.canva.com/EAFSqHqBU7s/2/0/1003w/canva-green-white-illustrated-brave-children-book-cover-Q46wJ4uIlFw.jpg');
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.p7 {
+	 background-size: cover;
+    display: inline-block;
+   padding: 150px 100px;
+    background-image: url('https://marketplace.canva.com/EAFPHUaBrFc/1/0/1003w/canva-black-and-white-modern-alone-story-book-cover-QHBKwQnsgzs.jpg');
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.p8 {
+	 background-size: cover;
+    display: inline-block;
+    padding: 150px 100px;
+    background-image: url('https://marketplace.canva.com/EAFBN69UM-A/1/0/501w/canva-black-red-vintage-time-book-cover-_agClMHRLX4.jpg');
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.p9 {
+	 background-size: cover;
+    display: inline-block;
+    padding: 150px 100px;
+    background-image: url('https://marketplace.canva.com/EAFPpkFj4is/1/0/1003w/canva-black-romance-novel-book-cover-7clVjOZ2o_Y.jpg');
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.p10 {
+	 background-size: cover;
+    display: inline-block;
+    padding: 150px 100px;
+    background-image: url('https://marketplace.canva.com/EAFUGn0WUDw/2/0/1003w/canva-fantasy-fiction-flames-ashes-book-cover-iLXpPp_so18.jpg');
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.p11 {
+	 background-size: cover;
+    display: inline-block;
+    padding: 150px 100px;
+    background-image: url('https://marketplace.canva.com/EADaoMonJd8/2/0/1003w/canva-black-and-yellow-genius-autobiography-book-cover-_nFcHdB1-8k.jpg');
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.p12 {
+	 background-size: cover;
+    display: inline-block;
+    padding: 150px 100px;
+    background-image: url('https://marketplace.canva.com/EAFH1A4lV2I/1/0/1003w/canva-green-minimalist-mysterious-forest-novel-book-cover-aCdqYOyxzLw.jpg');
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.p13 {
+	 background-size: cover;
+    display: inline-block;
+    padding: 150px 100px;
+    background-image: url('https://marketplace.canva.com/EAFDuQrsi9c/1/0/1003w/canva-cute-green-illustrated-simple-summer-love-romance-book-cover-GP4zLi65S6U.jpg');
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.p14 {
+	 background-size: cover;
+    display: inline-block;
+    padding: 150px 100px;
+    background-image: url('https://marketplace.canva.com/EAFCv6WKX6M/2/0/1003w/canva-dark-minimal-modern-village-photo-field-book-cover-OgAouOAThfI.jpg');
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+
+
